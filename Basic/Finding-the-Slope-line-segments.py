@@ -1,0 +1,11 @@
+Xa,Ya,Xb,Yb=list(map(int,(input().split())))
+Xp,Yp,Xq,Yq=list(map(int,(input().split())))
+if (Xb-Xa)==0 or (Xq-Xp)==0:
+    print("NO")
+else:
+    slope1=float(Yb-Ya)//float(Xb-Xa)
+    slope2=float(Yq-Yp)//float(Xq-Xp)
+if slope1 == slope2:
+    print("YES")
+else:
+    print("NO")  
