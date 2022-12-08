@@ -23,3 +23,5 @@ class Tables:
 X=Tables()
 X.one()
 X.Five()
+X.Three()
+X.FIve()
